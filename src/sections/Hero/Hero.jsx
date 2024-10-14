@@ -3,8 +3,8 @@ import pfpLight from '../../assets/ShubhamGuptaPFPLight.png';
 import pfpDark from '../../assets/ShubhamGuptaPFPDark.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
-import twitterLight from '../../assets/twitter-light.svg';
-import twitterDark from '../../assets/twitter-dark.svg';
+import instagramLight from '../../assets/instagram-light.svg';
+import instagramDark from '../../assets/instagram-dark.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
@@ -21,7 +21,7 @@ function Hero() {
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
   const leetcodeIcon = theme === 'light' ? leetcodeLight : leetcodeDark;
-  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
+  const instagramIcon = theme === 'light' ? instagramLight : instagramDark;
   const pfpIcon = theme === 'light' ? pfpLight : pfpDark;
  
   return (
@@ -47,8 +47,8 @@ function Hero() {
         </h1>
         <h2>Web Developer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
+          <a href="https://www.instagram.com/sky.isnotmylimit/" target="_blank">
+            <img src={instagramIcon} alt="Instagram icon" />
           </a>
           <a href="https://github.com/skyisnotmylimit" target="_blank">
             <img src={githubIcon} alt="Github icon" />
