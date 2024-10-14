@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function ProjectCard({ src, link, h3, p }) {
   return (
     <a href={link} target="_blank">
@@ -7,5 +9,12 @@ function ProjectCard({ src, link, h3, p }) {
     </a>
   );
 }
+
+ProjectCard.propTypes = {
+  src: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  h3: PropTypes.string.isRequired,
+  p: PropTypes.string.isRequired,
+};
 
 export default ProjectCard;
