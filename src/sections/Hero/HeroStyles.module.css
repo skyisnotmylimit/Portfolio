@@ -69,12 +69,14 @@
   
   .description {
     max-width: 24ch;
+    text-align: center;
   }
   
   .info {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
   }
   
   @media (width >= 800px) {
