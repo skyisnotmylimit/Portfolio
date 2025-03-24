@@ -11,7 +11,7 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import leetcodeDark from '../../assets/leetcode-dark.svg';
 import leetcodeLight from '../../assets/leetcode-light.svg';
-import CV from '../../assets/ShubhamGuptaResume16-09-24.pdf';
+import CV from '../../assets/ShubhamGuptaResume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
